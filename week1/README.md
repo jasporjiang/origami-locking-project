@@ -1,26 +1,49 @@
 # Week 1: Literature Reading
 
-## Goal
+## Objective
 
-Build an initial understanding of modular docking, origami locking, and actuation options. The points below are discussion prompts rather than a fixed response format.
+Understand the main challenges of modular robot docking, examine how origami geometry can create locking behavior, and assess the compatibility between pneumatic actuation and origami deployment and locking.
 
-## Reading
+## 1. Modular Robot Docking
 
-- [Paper 1: Decoding Modular Reconfigurable Robots: A Survey on Mechanisms and Design](papers/paper-1-modular-reconfigurable-robots-survey.pdf)
-- [Paper 2: An Origami-Inspired, Self-Locking Robotic Arm That Can Be Folded Flat](papers/paper-2-origami-self-locking-robotic-arm.pdf)
-- [Paper 3: A Self-Folding Pneumatic Piston for Mechanically Robust Origami Robots](papers/paper-3-self-folding-pneumatic-piston.pdf)
-- [Paper 4 (optional): Low-Profile Folding Mechanism for Multi-DoF Feedback Control](papers/paper-4-low-profile-folding-mechanism.pdf)
+Read:
 
-## Points to Explore
+- Liang et al., "[Decoding Modular Reconfigurable Robots: A Survey on Mechanisms and Design](papers/paper-1-modular-reconfigurable-robots-survey.pdf)."
 
-- What are the main challenges in modular robot docking and locking?
-- Which connector examples or design ideas interest you, and why?
-- How can origami geometry contribute to deployment, locking, compactness, or stiffness?
-- What evidence do the papers provide, and what remains uncertain?
-- Which ideas appear relevant to our inter-module locking problem?
-- How well does pneumatic actuation fit an origami locking mechanism, and what other actuation options are worth considering?
-- What questions or design directions would you like to discuss further?
+Questions:
+
+1. What are the general challenges in designing docking and locking mechanisms for modular robots, particularly for identical modules?
+2. Select three connector examples from the paper that you find most relevant or interesting.
+3. For each example, briefly explain its working principle, advantages, limitations, and one insight that may transfer to this project.
+
+## 2. Origami Locking
+
+Read:
+
+- Kim et al., "[An Origami-Inspired, Self-Locking Robotic Arm That Can Be Folded Flat](papers/paper-2-origami-self-locking-robotic-arm.pdf)."
+
+Questions:
+
+1. How does the origami mechanism create locking?
+2. What benefits do the authors claim?
+3. How do the authors demonstrate that the mechanism works? Identify the relevant models, experiments, and reported performance.
+4. Which aspects are suitable for our inter-module locking scenario, and which aspects are not?
+5. What important performance evidence is still missing?
+
+## 3. Pneumatic Actuation and Origami
+
+Conduct a small literature search to assess whether, and under what conditions, pneumatic actuation is suitable for deploying and releasing an origami locking mechanism.
+
+Suggested starting paper:
+
+- Liu et al., "[A Self-Folding Pneumatic Piston for Mechanically Robust Origami Robots](papers/paper-3-self-folding-pneumatic-piston.pdf)."
+
+Optional:
+
+- Jeong et al., "[Low-Profile Folding Mechanism for Multi-DoF Feedback Control](papers/paper-4-low-profile-folding-mechanism.pdf)."
+
+Compare pneumatic actuation with at least two alternatives. Consider force, stroke, thickness, weight, response time, holding energy, controllability, fabrication, cycle life, and likely failure modes.
 
 ## Submission
 
-Add a concise response to the [assignment summary](student_response/assignment_summary.md) before the first weekly project meeting. Use any format that communicates your reasoning clearly; sketches, tables, and additional references are welcome but not required.
+Complete the [assignment summary](student_response/assignment_summary.md) before the first weekly project meeting. The summary is intentionally lightweight; use the detailed questions above to guide the reading and discussion rather than treating its headings as a restrictive response format.
