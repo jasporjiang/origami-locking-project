@@ -46,4 +46,4 @@ Compare pneumatic actuation with at least two alternatives. Consider force, stro
 
 ## Submission
 
-Complete the [assignment summary](student_response/assignment_summary.md) before the first weekly project meeting. The summary is intentionally lightweight; use the detailed questions above to guide the reading and discussion rather than treating its headings as a restrictive response format.
+Complete the [assignment summary](student_response/assignment_summary.md) before the first weekly project meeting. Use the questions above as a hint to read documents and prepare our kickoff meeting. You're welcomed to add questions and reflections so do not restrict your creativity by the fixed questions:) 
